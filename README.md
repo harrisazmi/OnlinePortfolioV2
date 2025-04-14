@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Online Portfolio v2
 
-## Getting Started
+A modern, cloud-deployed personal portfolio designed to showcase professional skills, technical projects, and career achievements. Built with a focus on performance, accessibility, and continuous delivery, the portfolio reflects a commitment to clean UI/UX, scalable architecture, and real-world DevOps practices.
 
-First, run the development server:
+> **Live Demo:** [View Portfolio](https://portfoliocf.harrisviewcodes.uk/)  
+> **Live Legacy:** [View Portfolio](https://Legacy1portfoliocf.harrisviewcodes.uk/)  
+> **Source Code:** [GitHub Repository](https://github.com/harrisazmi/OnlinePortfolioV2)  
+> **Report Issues:** [GitHub Issues](https://github.com/harrisazmi/OnlinePortfolioV2/issues)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Why I Built This
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+While digital resumes and static PDFs serve their purpose, they often fall short in showcasing technical depth, real-time updates, and interactivity. I realized my traditional resume lacked flexibility and didn’t truly reflect the way I work or what I’ve built.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This portfolio solves that by offering:
 
-## Learn More
+- A dynamic and interactive format for showcasing my professional journey
+- A centralized place to explore my experience, skills, and technical projects
+- Mobile and print-friendly formats to adapt across various platforms
+- Continuous updates via CI/CD pipelines and global hosting via Cloudflare Pages
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Frontend & Backend
 
-## Deploy on Vercel
+- **TypeScript** – Type-safe development
+- **Next.js 15** – React framework for SSR & static sites
+- **React 19** – Component-driven architecture
+- **Tailwind CSS v4** – Utility-first styling
+- **MYDS-UI** – Custom design system
+- **Radix UI** – Accessible component primitives
+- **ShadCN UI** – Headless component styling
+- **Node.js** – Runtime environment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### DevOps & Hosting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Cloudflare Pages** – Fast, edge-hosted deployments
+- **Vercel (Preview)** – Zero-config previews for PRs
+- **GitHub Actions** – CI/CD pipeline for automated builds and deployments
+
+---
+
+## 🚀 Key Features & Technical Highlights
+
+### ✅ Interactive, Component-Driven Layout
+
+- Built with modular, reusable React components for scalability
+- All major sections (projects, experience, contact) are abstracted for clean separation of concerns
+
+### 📱 Fully Responsive Design
+
+- Mobile-first approach with seamless adaptation across devices
+- Optimized layout and UX for desktops, tablets, and smartphones
+
+### ♿ Accessibility-Focused UI
+
+- Keyboard navigation, semantic HTML, and compliant color contrast
+- Prioritizes inclusive experiences for all users
+
+### 🔁 CI/CD Integration
+
+- GitHub commits trigger automatic builds via Cloudflare Pages
+- Enables continuous delivery with minimal overhead and instant updates
+
+---
+
+## 📈 Impact and Outcomes
+
+### 🌍 Improved Accessibility and Engagement
+
+- Transitioned from static documents to a dynamic, engaging platform
+- Encourages exploration and interactivity for recruiters and collaborators
+
+### 🔗 Simplified Sharing and Outreach
+
+- A single link serves as a centralized professional identity
+- Consolidates skills, credentials, and contact info in one accessible format
+
+### 💡 Demonstrated Technical Proficiency
+
+- Highlights real-world application of modern web technologies
+- Reflects strong knowledge of CI/CD, component-driven design, and performance optimization
+
+### 🚧 Built to Scale and Evolve
+
+- More than a static portfolio—this is a professional platform
+- Built to adapt with my evolving career, skillset, and personal brand
+
+---
+
+## 🧪 Available Scripts
+
+| Script  | Description                     |
+| ------- | ------------------------------- |
+| `dev`   | Starts local development server |
+| `build` | Builds the production app       |
+| `start` | Starts production server        |
+| `lint`  | Lints project using ESLint      |
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**HARRIS AZMI BIN ROSWADI**  
+Full-Stack Engineer | React · TypeScript · Next.js · AWS · CI/CD  
+[LinkedIn](https://www.linkedin.com/in/harris-azmi-roswadi/) • [GitHub](https://github.com/harrisazmi)
+
+---
+
+## 🙋‍♀️ Feedback and Contributions
+
+Have ideas to improve this portfolio?  
+Feel free to [open an issue](https://github.com/harrisazmi/OnlinePortfolioV2/issues) or submit a pull request.  
+If you found it inspiring, a ⭐ is always appreciated!
