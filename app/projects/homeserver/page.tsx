@@ -52,29 +52,6 @@ export default function HomeServer() {
         </h1>
         <p className="text-lg text-gray-140">{HomeServerPortfolio.overview}</p>
 
-        <div className="flex gap-4 py-6">
-          <Link
-            href="https://www.expensetracker.forviewcodes.uk"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
-              <BroadcastIcon />
-              <div>View Live</div>
-            </Button>
-          </Link>
-          <Link
-            href="https://github.com/harrisazmi/ExpenseTracker"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
-              <GitHubIcon />
-              <div>View Code - GitHub</div>
-            </Button>
-          </Link>
-        </div>
-
         <div>
           <h1 className="font-bold text-2xl">Issues</h1>
           <p className="text-lg text-gray-140 pt-2">

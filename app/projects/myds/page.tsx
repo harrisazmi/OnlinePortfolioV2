@@ -52,7 +52,7 @@ export default function Myds() {
 
         <div className="flex gap-4 pt-6">
           <Link
-            href="https://design.digital.gov.my/en"
+            href={mydsPortfolio.livehref}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,7 +62,7 @@ export default function Myds() {
             </Button>
           </Link>
           <Link
-            href="https://github.com/govtechmy/myds"
+            href={mydsPortfolio.githubhref}
             target="_blank"
             rel="noopener noreferrer"
           >

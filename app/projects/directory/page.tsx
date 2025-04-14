@@ -56,7 +56,7 @@ export default function Directory() {
           </p>
           <div className="flex gap-4 pt-6">
             <Link
-              href="https://directory.gov.my/"
+              href={directoryPortfolio.livehref}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -70,7 +70,7 @@ export default function Directory() {
             </Link>
 
             <Link
-              href="https://github.com/govtechmy/directory"
+              href={directoryPortfolio.githubhref}
               target="_blank"
               rel="noopener noreferrer"
             >

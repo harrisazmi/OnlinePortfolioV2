@@ -56,7 +56,7 @@ export default function ExpenseTracker() {
 
         <div className="flex gap-4 py-6">
           <Link
-            href="https://www.expensetracker.forviewcodes.uk"
+            href={ExpenseTrackerPortfolio.livehref}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ export default function ExpenseTracker() {
             </Button>
           </Link>
           <Link
-            href="https://github.com/harrisazmi/ExpenseTracker"
+            href={ExpenseTrackerPortfolio.githubhref}
             target="_blank"
             rel="noopener noreferrer"
           >

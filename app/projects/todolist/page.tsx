@@ -50,9 +50,9 @@ export default function ToDoList() {
         <h1 className="font-bold text-5xl">{ToDoListPortfolio.projectName}</h1>
         <p className="text-lg text-gray-140">{ToDoListPortfolio.overview}</p>
 
-        <div className="flex gap-4 py-6">
+        <div className="flex flex-wrap gap-4 py-6 items-center lg:justify-center">
           <Link
-            href="https://www.todolist.forviewcodes.uk"
+            href={ToDoListPortfolio.livehref}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,13 +62,23 @@ export default function ToDoList() {
             </Button>
           </Link>
           <Link
-            href="https://github.com/harrisazmi/ToDoList"
+            href={ToDoListPortfolio.githubhreffe}
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
               <GitHubIcon />
-              <div>View Code - GitHub</div>
+              <div>View Code FE - GitHub</div>
+            </Button>
+          </Link>
+          <Link
+            href={ToDoListPortfolio.githubhrefbe}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
+              <GitHubIcon />
+              <div>View Code BE - GitHub</div>
             </Button>
           </Link>
         </div>

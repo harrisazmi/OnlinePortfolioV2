@@ -3,6 +3,8 @@ import { MailIcon } from "@/Icons";
 export const askMyGovPortfolio = {
   projectName: "AskMyGov",
   projectImage: "/projects/collab/askgov.png",
+  livehref: "https://askmygov.gov.my/",
+  githubhref: "https://github.com/govtechmy/askmygov",
   overview:
     "AskMyGov is a centralized platform designed to streamline communication between citizens and government agencies by providing a single, reliable source for frequently asked questions. It consolidates scattered information from multiple agency websites, ensuring accessibility and consistency while enhancing the efficiency of citizen-government interactions.",
 
@@ -108,6 +110,8 @@ export const askMyGovPortfolio = {
 export const directoryPortfolio = {
   projectName: "Directory",
   projectImage: "/projects/collab/directory.png",
+  livehref: "https://directory.gov.my/",
+  githubhref: "https://github.com/govtechmy/directory-gov-my",
   overview:
     "Directory.gov.my, a centralized platform for accessing government officers' details and ministry contact information. The platform features a comprehensive staff and office directory, providing verified positions, divisions, contact details, and integrated mapping services (Google Maps). With bilingual support and mobile-responsive design, it streamlines access to government contacts, enhancing efficiency for citizens, employees, and stakeholders",
 
@@ -217,6 +221,8 @@ export const directoryPortfolio = {
 export const mydsPortfolio = {
   projectName: "MYDS",
   projectImage: "/projects/collab/myds.png",
+  livehref: "https://design.digital.gov.my/en",
+  githubhref: "https://github.com/govtechmy/myds",
   overview:
     "MYDS is a comprehensive design system created to establish consistent user experience standards across Malaysian government digital services. The system provides a collection of reusable UI components, design patterns, and guidelines that enable teams to build accessible, responsive, and visually cohesive applications efficiently. MYDS aims to reduce redundancy in UI development efforts, accelerate project timelines, and ensure compliance with government digital standards.",
 
@@ -311,6 +317,8 @@ export const mydsPortfolio = {
 export const ExpenseTrackerPortfolio = {
   projectName: "Expense Tracker",
   projectImage: "/projects/personal/ExpenseTracker.png",
+  livehref: "https://expensetracker.harrisviewcodes.uk",
+  githubhref: "https://github.com/harrisazmi/ExpenseTracker",
   overview:
     "A customizable, insight-driven personal finance tracking application built with Next JS and modern DevOps tools—designed for users who need more than just basic banking apps. This cross-platform solution empowers users with granular control over their finances, offering intuitive  store-level tracking, dynamic budgeting, and powerful data visualizations to support better financial decisions and accountability.",
   issues:
@@ -439,6 +447,8 @@ export const ExpenseTrackerPortfolio = {
 export const NumazuScraperPortfolio = {
   projectName: "Numazu's Data Scraper",
   projectImage: "/projects/personal/NumazuDataScraper.png",
+  livehref: "https://numazuscraper.harrisviewcodes.uk",
+  githubhref: "https://github.com/harrisazmi/Project3NumazuScraper",
   overview:
     "A web application designed to provide real-time alerts on life-threatening weather and geological events in Numazu-shi, Japan, by scraping and presenting essential updates from the Japan Meteorological Agency (JMA).",
   issues:
@@ -555,6 +565,9 @@ export const NumazuScraperPortfolio = {
 export const ToDoListPortfolio = {
   projectName: "To Do List",
   projectImage: "/projects/personal/ToDoList.png",
+  livehref: "https://todolist.harrisviewcodes.uk",
+  githubhreffe: "https://github.com/harrisazmi/Project1ToDoListFE",
+  githubhrefbe: "https://github.com/harrisazmi/Project1ToDoListBE",
   overview:
     "A lightweight, scalable task management web application built using the MERN stack, focused on simplicity, cross-platform accessibility, and real-time performance.",
   issues:
@@ -689,6 +702,8 @@ export const ToDoListPortfolio = {
 export const OnlinePortfolio = {
   projectName: "Online Portfolio",
   projectImage: "/projects/personal/OnlinePortfolio.png",
+  livehref: "https://portfoliocf.harrisviewcodes.uk/",
+  githubhref: "https://github.com/harrisazmi/OnlinePortfolioV2",
   overview:
     "A modern, cloud-deployed personal portfolio designed to showcase professional skills, technical projects, and career achievements. Built with a focus on performance, accessibility, and continuous delivery, the portfolio reflects a commitment to clean UI/UX, scalable architecture, and real-world DevOps practices.",
   issues:
@@ -794,6 +809,7 @@ export const OnlinePortfolio = {
 export const TerraformAWSPortfolio = {
   projectName: "Terraform AWS",
   projectImage: "/projects/personal/TerraformAWS.png",
+  githubhref: "https://github.com/harrisazmi/terraform_aws",
   overview:
     "To eliminate repetitive manual setup and enforce consistency across cloud environments, I built a Terraform-based infrastructure to provision a lightweight EC2 instance on AWS. The goal was to create a simple, scalable, and fully codified workflow that supports quick environment spin-ups for development, testing, or experimentation — all with secure access and minimal configuration overhead.",
   issues:

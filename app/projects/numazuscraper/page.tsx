@@ -56,7 +56,7 @@ export default function NumazuScraper() {
 
         <div className="flex gap-4 py-6">
           <Link
-            href="https://www.numazuscraper.forviewcodes.uk"
+            href={NumazuScraperPortfolio.livehref}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ export default function NumazuScraper() {
             </Button>
           </Link>
           <Link
-            href="https://github.com/harrisazmi/NumazuScraper"
+            href={NumazuScraperPortfolio.githubhref}
             target="_blank"
             rel="noopener noreferrer"
           >

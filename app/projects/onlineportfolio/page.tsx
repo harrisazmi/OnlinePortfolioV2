@@ -52,7 +52,7 @@ export default function OnlinePortfolios() {
 
         <div className="flex gap-4 py-6">
           <Link
-            href="https://www.expensetracker.forviewcodes.uk"
+            href={OnlinePortfolio.livehref}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,7 +62,7 @@ export default function OnlinePortfolios() {
             </Button>
           </Link>
           <Link
-            href="https://github.com/harrisazmi/ExpenseTracker"
+            href={OnlinePortfolio.githubhref}
             target="_blank"
             rel="noopener noreferrer"
           >

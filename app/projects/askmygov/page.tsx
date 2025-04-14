@@ -57,7 +57,7 @@ export default function AskMyGov() {
           </p>
           <div className="flex gap-4 pt-6">
             <Link
-              href="https://askmygov.gov.my/"
+              href={askMyGovPortfolio.livehref}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +71,7 @@ export default function AskMyGov() {
             </Link>
 
             <Link
-              href="https://github.com/govtechmy/askmygov"
+              href={askMyGovPortfolio.githubhref}
               target="_blank"
               rel="noopener noreferrer"
             >
