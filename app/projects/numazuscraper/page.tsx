@@ -53,6 +53,12 @@ export default function NumazuScraper() {
         <p className="text-lg text-gray-140">
           {NumazuScraperPortfolio.overview}
         </p>
+        <p className="font-bold text-orange-150">
+          Note: This project may take a few moments to load as the backend and
+          frontend services are hosted on free-tier infrastructure that sleeps
+          when inactive. This may also cause delays in initial requests until
+          the services are fully awake.
+        </p>
 
         <div className="flex gap-4 py-6">
           <Link

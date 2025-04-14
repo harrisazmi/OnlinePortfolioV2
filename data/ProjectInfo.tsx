@@ -565,7 +565,7 @@ export const NumazuScraperPortfolio = {
 export const ToDoListPortfolio = {
   projectName: "To Do List",
   projectImage: "/projects/personal/ToDoList.png",
-  livehref: "https://todolist.harrisviewcodes.uk",
+  livehref: "https://project1frontendcf.harrisviewcodes.uk/",
   githubhreffe: "https://github.com/harrisazmi/Project1ToDoListFE",
   githubhrefbe: "https://github.com/harrisazmi/Project1ToDoListBE",
   overview:
@@ -704,6 +704,8 @@ export const OnlinePortfolio = {
   projectImage: "/projects/personal/OnlinePortfolio.png",
   livehref: "https://portfoliocf.harrisviewcodes.uk/",
   githubhref: "https://github.com/harrisazmi/OnlinePortfolioV2",
+  livelhref: "https://legacy1portfoliocf.harrisviewcodes.uk/",
+  githublhref: "https://github.com/harrisazmi/OnlinePortfolio",
   overview:
     "A modern, cloud-deployed personal portfolio designed to showcase professional skills, technical projects, and career achievements. Built with a focus on performance, accessibility, and continuous delivery, the portfolio reflects a commitment to clean UI/UX, scalable architecture, and real-world DevOps practices.",
   issues:

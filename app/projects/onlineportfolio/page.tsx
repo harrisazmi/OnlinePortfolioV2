@@ -50,27 +50,55 @@ export default function OnlinePortfolios() {
         <h1 className="font-bold text-5xl">{OnlinePortfolio.projectName}</h1>
         <p className="text-lg text-gray-140">{OnlinePortfolio.overview}</p>
 
-        <div className="flex gap-4 py-6">
-          <Link
-            href={OnlinePortfolio.livehref}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
-              <BroadcastIcon />
-              <div>View Live</div>
-            </Button>
-          </Link>
-          <Link
-            href={OnlinePortfolio.githubhref}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
-              <GitHubIcon />
-              <div>View Code - GitHub</div>
-            </Button>
-          </Link>
+        <div>
+          <h1 className="font-bold text-2xl">Online Portfolio V2</h1>
+          <div className="flex gap-4 py-2">
+            <Link
+              href={OnlinePortfolio.livehref}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
+                <BroadcastIcon />
+                <div>View Live</div>
+              </Button>
+            </Link>
+            <Link
+              href={OnlinePortfolio.githubhref}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
+                <GitHubIcon />
+                <div>View Code - GitHub</div>
+              </Button>
+            </Link>
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold text-2xl">Online Portfolio Legacy</h1>
+          <div className="flex gap-4 py-2">
+            <Link
+              href={OnlinePortfolio.livelhref}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
+                <BroadcastIcon />
+                <div>View Live</div>
+              </Button>
+            </Link>
+            <Link
+              href={OnlinePortfolio.githublhref}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
+                <GitHubIcon />
+                <div>View Code - GitHub</div>
+              </Button>
+            </Link>
+          </div>
         </div>
 
         <div>
