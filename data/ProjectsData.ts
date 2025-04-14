@@ -1,6 +1,15 @@
 export const personalProjectsData = [
   {
     id: 1,
+    title: "Online Portfolio",
+    path: "onlineportfolio",
+    description: "Personal Portfolio for skills and achievements",
+    image: "/projects/personal/OnlinePortfolio.png",
+    gitHubUrl: "https://github.com/harrisazmi/OnlinePortfolio",
+    previewUrl: "https://portfoliocf.harrisviewcodes.uk/",
+  },
+  {
+    id: 2,
     title: "Expense Tracker",
     path: "expensetracker",
     description: "Managing Expenses and Receipts for Personal Finance",
@@ -10,7 +19,7 @@ export const personalProjectsData = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Numazu Scraper ",
     path: "numazuscraper",
     description: "High Tide Warning Data Scraper for safety",
@@ -19,23 +28,13 @@ export const personalProjectsData = [
     previewUrl: "https://project3frontendcf.harrisviewcodes.uk/",
   },
   {
-    id: 3,
+    id: 4,
     title: "To Do List",
     path: "todolist",
     description: "Real Time Housechores Manager for Family",
     image: "/projects/personal/ToDoList.png",
     gitHubUrl: "https://github.com/harrisazmi/Project1ToDoListFE",
     previewUrl: "https://project1frontendcf.harrisviewcodes.uk/",
-  },
-
-  {
-    id: 4,
-    title: "Online Portfolio",
-    path: "onlineportfolio",
-    description: "Personal Portfolio for skills and achievements",
-    image: "/projects/personal/OnlinePortfolio.png",
-    gitHubUrl: "https://github.com/harrisazmi/OnlinePortfolio",
-    previewUrl: "https://portfoliocf.harrisviewcodes.uk/",
   },
 
   {
