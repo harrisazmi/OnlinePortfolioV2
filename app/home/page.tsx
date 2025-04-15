@@ -167,6 +167,29 @@ export default function Home() {
             </div>
           </div>
 
+          <HorizontalCard
+            title={"WORKING WITH  KEMENTERIAN DIGITAL AND MYDIGITAL CORP"}
+          >
+            {HomeInfo.gallery.map((about, index) => (
+              <div
+                key={index}
+                className="rounded-lg w-[400px] h-[300px] border border-blue-110 bg-white gap-2.5 flex flex-col items-start flex-shrink-0 snap-start overflow-clip"
+              >
+                <div className="flex items-center gap-2.5 justify-start">
+                  <div className="w-fit h-fit overflow-hidden shrink-0">
+                    <Image
+                      src={about.path}
+                      alt={about.name}
+                      width={400}
+                      height={300}
+                      quality={100}
+                    />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </HorizontalCard>
+
           <HorizontalCard title={"WHAT PEOPLE SAY ABOUT ME"}>
             {HomeInfo.sayAboutMe.map((about, index) => (
               <div

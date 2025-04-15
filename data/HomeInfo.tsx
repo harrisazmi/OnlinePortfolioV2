@@ -108,6 +108,32 @@ export const HomeInfo = {
       path: "/home/recommend/danial.png",
     },
   ],
+  gallery: [
+    {
+      name: "Smart Nation Expo : Mitec",
+      path: "/home/gallery/1.png",
+    },
+    {
+      name: "Smart Nation Expo : Mitec",
+      path: "/home/gallery/3.png",
+    },
+    {
+      name: "Smart Nation Expo : Mitec",
+      path: "/home/gallery/4.png",
+    },
+    {
+      name: "Smart Nation Expo : Mitec",
+      path: "/home/gallery/6.png",
+    },
+    {
+      name: "Smart Nation Expo : Mitec",
+      path: "/home/gallery/5.png",
+    },
+    {
+      name: "Smart Nation Expo : Mitec",
+      path: "/home/gallery/7.png",
+    },
+  ],
   connect: [
     {
       title: "My Github",
