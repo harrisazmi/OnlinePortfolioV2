@@ -52,8 +52,8 @@ export default function AskMyGov() {
 
         <div>
           <p className="font-bold text-orange-150">
-            Please note that the project has not yet launched. Live access and
-            source code will remain unavailable until the official release.
+            Please note that the project has not yet launched. Live access will
+            remain unavailable until the official release.
           </p>
           <div className="flex gap-4 pt-6">
             <Link
@@ -75,10 +75,7 @@ export default function AskMyGov() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                disabled
-                className="flex gap-2 bg-white border border-gray-110  hover:text-gray-110 text-gray-130  cursor-not-allowed"
-              >
+              <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
                 <GitHubIcon />
                 <div>View Code - GitHub</div>
               </Button>

@@ -4,7 +4,7 @@ export const askMyGovPortfolio = {
   projectName: "AskMyGov",
   projectImage: "/projects/collab/askgov.png",
   livehref: "https://askmygov.gov.my/",
-  githubhref: "https://github.com/govtechmy/askmygov",
+  githubhref: "https://github.com/govtechmy/ask-gov-my",
   overview:
     "AskMyGov is a centralized platform designed to streamline communication between citizens and government agencies by providing a single, reliable source for frequently asked questions. It consolidates scattered information from multiple agency websites, ensuring accessibility and consistency while enhancing the efficiency of citizen-government interactions.",
 

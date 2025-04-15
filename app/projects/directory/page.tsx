@@ -74,10 +74,7 @@ export default function Directory() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                disabled
-                className="flex gap-2 bg-white border border-gray-110  hover:text-gray-110 text-gray-130  cursor-not-allowed"
-              >
+              <Button className="flex gap-2 bg-white border border-gray-110 hover:cursor-pointer hover:bg-gray-110">
                 <GitHubIcon />
                 <div>View Code - GitHub</div>
               </Button>
