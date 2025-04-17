@@ -11,6 +11,7 @@ import Link from "next/link";
 import Contacts from "@/components/Contact";
 import { Button } from "@/components/Button";
 import { collabProjectsData } from "@/data/ProjectsData";
+import { ExpInfo } from "@/data/ExpInfo";
 
 export default function Home() {
   const ref = useRef(null);
@@ -51,6 +52,35 @@ export default function Home() {
             </h1>
             <p className="text-gray-140 pb-8 pt-3">{HomeInfo.descHook}</p>
           </div>
+          <h2 className="tracking-[2px] text-gray-130 text-xs font-medium text-start">
+            WORK EXPERIENCE
+          </h2>
+          <div className=" gap-8 flex flex-col w-full">
+            {ExpInfo.map((exp, index) => (
+              <div key={index} className="flex w-full rounded-2xl">
+                <div className="pr-4">
+                  <div className="rounded-full size-16 overflow-hidden shrink-0 border border-gray-110">
+                    <Image
+                      src={exp.path}
+                      alt={exp.name}
+                      width={64}
+                      height={64}
+                      quality={100}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xl font-semibold">{exp.name}</div>
+                  <div className="text-gray-140 font-light text-sm">
+                    {exp.position}
+                  </div>
+                  <div className="text-gray-140 font-light text-sm">
+                    {exp.year}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
 
           <div className="w-full border-b border-blue-110">
             <h2 className="tracking-[2px] text-gray-130 text-xs font-medium text-start">
@@ -82,7 +112,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-
           <HorizontalCard title={"CERTIFICATES"}>
             {HomeInfo.certificate.map((certificate, index) => (
               <div
@@ -115,7 +144,6 @@ export default function Home() {
               </div>
             ))}
           </HorizontalCard>
-
           <div className="w-full border-b border-blue-110 pb-8 gap-8 flex flex-col">
             <div className="justify-between flex">
               <h2 className="tracking-[2px] text-gray-130 text-xs font-medium items-center flex">
@@ -166,7 +194,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-
           <HorizontalCard
             title={"WORKING WITH  KEMENTERIAN DIGITAL AND MYDIGITAL CORP"}
           >
@@ -189,7 +216,6 @@ export default function Home() {
               </div>
             ))}
           </HorizontalCard>
-
           <HorizontalCard title={"WHAT PEOPLE SAY ABOUT ME"}>
             {HomeInfo.sayAboutMe.map((about, index) => (
               <div
