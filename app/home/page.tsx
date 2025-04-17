@@ -52,12 +52,15 @@ export default function Home() {
             </h1>
             <p className="text-gray-140 pb-8 pt-3">{HomeInfo.descHook}</p>
           </div>
-          <h2 className="tracking-[2px] text-gray-130 text-xs font-medium text-start">
+          <h2 className="tracking-[2px] text-gray-130 text-xs font-medium text-start w-full ">
             WORK EXPERIENCE
           </h2>
-          <div className=" gap-8 flex flex-col w-full">
+          <div className=" gap-8 flex flex-col w-full text-left">
             {ExpInfo.map((exp, index) => (
-              <div key={index} className="flex w-full rounded-2xl">
+              <div
+                key={index}
+                className="flex w-full rounded-2xl items-center "
+              >
                 <div className="pr-4">
                   <div className="rounded-full size-16 overflow-hidden shrink-0 border border-gray-110">
                     <Image
